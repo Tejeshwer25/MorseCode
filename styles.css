@@ -1,0 +1,126 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Kiwi+Maru:wght@300&display=swap');
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --heading-font: "Merriweather",serif;
+    --text-font: "Kiwi Maru",serif;
+}
+
+header {
+    background-color: sienna;
+    font-family: var(--heading-font);
+    font-weight: 600;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+
+    padding: 0.5rem;
+}
+
+header > h1 {
+    width: 70%;
+    margin-right: 0.5rem;
+    color: wheat;
+}
+
+header > img {
+    width: 5rem;
+}
+
+section {
+    margin: 2rem 0.5rem;
+    font-family: var(--text-font);
+    font-weight: 600;
+}
+
+.inputSection {
+    margin: 1rem 0rem;
+}
+
+section label {
+    display: block;
+    margin: 0.5rem 0rem;
+}
+
+.inputSection > textarea {
+    width: 100%;
+    height: 7rem;
+    padding: 0.5rem;
+    outline: none;
+}
+
+.btn {
+    padding: 0.5rem 1rem;
+    border: 2px solid sienna;
+    background-color: sienna;
+    border-radius: 10px;
+    color: wheat;
+    font-family: var(--heading-font);
+    font-size: 1rem;
+    font-weight: 500;
+
+    transition: all 0.3s ease-in-out;
+}
+
+.btn:hover {
+    background-color: wheat;
+    color: sienna;
+}
+
+#output {
+    border: 2px solid sienna;
+    padding: 0.7rem;
+    border-radius: 10px;
+    font-size: 1.5rem;
+    letter-spacing: 2px;
+}
+
+.instructions {
+    text-align: center;
+    background-color: #f3f3f3;
+    padding: 0.5rem 0rem;
+}
+
+.instructions > img {
+    width: 100%;
+}
+
+footer {
+    background-color: sienna;
+    color: wheat;
+    padding: 1rem;
+    font-family: var(--heading-font);
+    font-size: 1.25rem;
+    text-align: center;
+}
+
+footer span {
+    color: red;
+}
+
+footer a {
+    color: orange;
+    text-decoration: none;
+}
+
+@media(min-width:600px) {
+    section {
+        width: 80%;
+        margin: 2rem auto;
+    }
+}
+
+@media(min-width:900px) {
+    section {
+        width: 60%;
+        margin: 2rem auto;
+    }
+}

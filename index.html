@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Morse Code Converter</title>
+
+        <link type="text/css" rel="stylesheet" href="./styles.css" >
+    </head>
+    <body>
+        <header>
+            <h1>Morse Code Converter</h1>
+            <img src="./img/morse-code.png" alt=""/>
+        </header>
+
+        <section>
+            <div class="inputSection">
+                <label>Enter text to be converted: </label>
+                <textarea rows="2" cols="100" id="input_text"></textarea>
+                <button class="btn" id="submit">Convert</button>
+            </div>
+
+            <div class="outputSection">
+                <label>Your text in Morse Code is:- </label>
+                <div id="output">Output will be displayed here...</div>
+            </div>
+        </section>
+
+        <section class="instructions">
+            <h3>Instructions to read the Morse Code:- </h3>
+            <img src="./img/international_morse_code.png" alt="International Morse Code" />
+        </section>
+
+        <footer>
+            <h5>Made with <span>❤</span> by <a href="https://tejeshwer-singh.netlify.app/" target="_blank">Tejeshwer</a></h5>
+        </footer>
+
+        <script src="./app.js"></script>
+    </body>
+</html>
