@@ -1,4 +1,4 @@
-# MorseCode
+# Mark-7: Morse Code
 This app converts your english text into Morse Code format. The app is built using HTML, CSS, and JS. 
 
 ## Live Project
